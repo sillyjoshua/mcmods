@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCMods</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #0f1115;
+            color: #fff;
+        }
+
+        header {
+            background: #151922;
+            border-bottom: 1px solid #252b38;
+            padding: 20px 40px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        nav a {
+            color: #aaa;
+            text-decoration: none;
+            margin-left: 25px;
+        }
+
+        nav a:hover {
+            color: #fff;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 60px auto;
+            padding: 20px;
+        }
+
+        .hero {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            color: #999;
+            font-size: 18px;
+        }
+
+        .mods {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 20px;
+        }
+
+        .mod {
+            background: #171b24;
+            border: 1px solid #292f3c;
+            border-radius: 12px;
+            padding: 25px;
+            transition: 0.2s;
+        }
+
+        .mod:hover {
+            transform: translateY(-4px);
+            border-color: #4b5568;
+        }
+
+        .mod h2 {
+            margin-top: 0;
+        }
+
+        .mod p {
+            color: #999;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 16px;
+            background: #5865f2;
+            color: white;
+            text-decoration: none;
+            border-radius: 7px;
+            font-weight: bold;
+        }
+
+        .button:hover {
+            background: #4752c4;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">MCMods</div>
+
+    <nav>
+        <a href="/">Home</a>
+        <a href="/download.html">Downloads</a>
+    </nav>
+</header>
+
+<main>
+
+    <section class="hero">
+        <h1>MCMods</h1>
+        <p>Simple and easy Minecraft mods.</p>
+    </section>
+
+    <section class="mods">
+
+        <div class="mod">
+            <h2>AdminPanel</h2>
+            <p>A Minecraft admin panel mod.</p>
+
+            <a class="button" href="/downloads/ap.html">
+                View Downloads
+            </a>
+        </div>
+
+    </section>
+
+</main>
+
+</body>
+</html>
