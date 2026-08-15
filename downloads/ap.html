@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AdminPanel Downloads - MCMods</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #0f1115;
+            color: #fff;
+        }
+
+        header {
+            background: #151922;
+            border-bottom: 1px solid #252b38;
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        nav a {
+            color: #aaa;
+            text-decoration: none;
+            margin-left: 25px;
+        }
+
+        nav a:hover {
+            color: white;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 60px auto;
+            padding: 20px;
+        }
+
+        .title {
+            margin-bottom: 30px;
+        }
+
+        .title h1 {
+            font-size: 40px;
+            margin-bottom: 5px;
+        }
+
+        .title p {
+            color: #999;
+        }
+
+        .version {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: #171b24;
+            border: 1px solid #292f3c;
+            border-radius: 12px;
+            padding: 20px 25px;
+            margin-bottom: 15px;
+        }
+
+        .version h2 {
+            margin: 0 0 5px;
+        }
+
+        .version p {
+            margin: 0;
+            color: #888;
+        }
+
+        .download {
+            padding: 10px 18px;
+            background: #5865f2;
+            color: white;
+            text-decoration: none;
+            border-radius: 7px;
+            font-weight: bold;
+        }
+
+        .download:hover {
+            background: #4752c4;
+        }
+
+        @media (max-width: 600px) {
+            .version {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">MCMods</div>
+
+    <nav>
+        <a href="/">Home</a>
+        <a href="/download.html">Downloads</a>
+    </nav>
+</header>
+
+<main>
+
+    <div class="title">
+        <h1>AdminPanel</h1>
+        <p>Choose the version you want to download.</p>
+    </div>
+
+    <div class="version">
+        <div>
+            <h2>v1</h2>
+            <p>AdminPanel v1</p>
+        </div>
+
+        <a
+            class="download"
+            href="/downloads/mod/v1/adminpanel.jar"
+            download
+        >
+            Download
+        </a>
+    </div>
+
+</main>
+
+</body>
+</html>
